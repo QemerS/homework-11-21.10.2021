@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pattern = /[A-Z]([a-z])+[\d{1}]/g;
+let metn = prompt("Sözün ilk hərfi böyük, sonra istənilən qədər kiçik hərf və sonra yalnız bir rəqəm");
+if (pattern.test(metn)) {
+    alert("Doğru");
+}else {
+    alert("Yanlış");
+}
+    </script>
+</body>
+</html>
